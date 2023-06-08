@@ -115,7 +115,7 @@
 									Address: F65A-Stadium Residential Area, Tumu,Upper West-Ghana
 								</p>
 								<p> Phone: +233 20 114 4293</p>
-								<p> Email: info@domain.com </p>
+								<p> Email: info@agriconnect.com </p>
 							</div>
 							
 							<div class="useful-links">
@@ -218,6 +218,7 @@
 						  },
 						success: function(response) {
 							alert(response);
+							 window.location.href ='index.php';
 						}
 					});
 					

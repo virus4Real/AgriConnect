@@ -24,6 +24,10 @@
 	<link rel="stylesheet" href="css/homepage.css">
     <style>
        
+.img {
+	width:500px;
+	height:150px;
+}
     </style>
 </head>
 
@@ -182,9 +186,21 @@
 						
 					</div>
 					<div class="search-results">  </div>
-					<div class="banner"style="text-align: center; padding: 2rem;">
-						<h1 align="center"> Welcome To AgriConnect </h1>
-						<p style="color: gray; line-height: 2.0; margin: 2rem 0;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum venenatis nulla, id lacinia justo. Sed interdum nulla et dignissim interdum. Morbi cursus sapien et nisl consectetur, ut fermentum mauris accumsan. Nullam sollicitudin, odio et feugiat ullamcorper, risus ipsum blandit eros, ut tristique quam nisi eu nisl. Etiam pulvinar</p>
+
+					<div class="banner"style="text-align: center; padding: 2rem; background: linear-gradient( rgb(0, 255, 0, 0.5),white),  url('img/bg.jpg'); background-position:center; color:red;">
+						<h1 align="center" style="font-family:Helvetica;"> Welcome To AgriConnect </h1>
+						<p style="color: blue; line-height: 2.0; margin: 2rem 0; font-family:Verdana;">  <i>
+						Welcome to AgriConnect website! We are thrilled to have you here and to provide you with a wealth of information about the latest advancements in the agricultural industry. Our website is 
+						designed to be your go-to resource for everything related to agriculture inputs and commodities. <br>
+						Whether you are a farmer, an agricultural industry professional, or simply someone who is interested in learning more about the agricultural industry, our website has something for you.
+						sWe offer a wide range of resources, including articles, news updates, product information, and much more. <br>
+						Our goal is to help you stay informed about the latest trends and developments in the agricultural industry,
+						as well as to provide you with the tools and resources you need to succeed in this dynamic and challenging field.
+					    So whether you are looking for information on the latest seed varieties, 
+						crop protection products, or commodity prices, we are here to help. <br>
+						Thank you for visiting our website, and we look forward to helping you achieve your goals in the agricultural industry!
+						</i>
+						</p>
 						<a href="#" class="btn"> SHOP NOW </a>
 					</div>
 				</section>
@@ -231,24 +247,28 @@
 						
 						<div class="blog-posts">
 							<div class="post-card">
-								<a href="#"><img src="img/img4.jpg" /></a>
-								<p style="color:gray;"><i class="calendar outline icon"></i> Jan 1, 2023</p>
-								<h3> Cooking tips to make cooking simple </h3>
-								<p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+								<a href="#"><img src="img/blog.jpg" class="img"/></a>
+								<p style="color:gray;"><i class="calendar outline icon"></i> Apr 20, 2023 | News: Agriculture</p>
+								<h3> Tackling high cost of fertilizer in Ghana: Public, private partnership necessary</h3>
+
+								<p> 
+									As part of its efforts to help develop actionable and outcome-oriented 
+									strategies to address the challenges of fluctu ...</p>
 							</div>
 							
 							<div class="post-card">
-								<a href="#"><img src="img/img4.jpg" /></a>
-								<p style="color:gray;"><i class="calendar outline icon"></i> Jan 1, 2023</p>
-								<h3> 6 Ways to prepare breakfast </h3>
-								<p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+								<a href="#"><img src="img/blog2.jpg" class="img"/></a>
+								<p style="color:gray;"><i class="calendar outline icon"></i>13, 2023 | News: Agriculture</p>
+								<h3>STAR Ghana Foundation provides GHC348,561 for cashew development </h3>
+								<p>Cashew Watch Ghana (CWG), a civil society platform, has secured GHS348,561
+								 from STAR Ghana Foundation to mobilize and . </p>
 							</div>
 							
 							<div class="post-card">
-								<a href="#"><img src="img/img4.jpg" /></a>
-								<p style="color:gray;"><i class="calendar outline icon"></i> Jan 1, 2023</p>
-								<h3> Visit this clean farm in Ghana </h3>
-								<p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+								<a href="#"><img src="img/blog3.jpg" class="img"/></a>
+								<p style="color:gray;"><i class="calendar outline icon"></i> 21, 2023</p>
+								<h3> Cassava Processing Factory For Keta Begins </h3>
+								<p>Mr Godwin Edudzi Yao Effah, the Municipal Chief Executive MCE for Keta, has cut the sod for the commencement of works on Cassava Processing Factory </p>
 							</div>
 						</div>
 					</div>
